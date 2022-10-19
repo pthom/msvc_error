@@ -4,5 +4,5 @@ project(imgui_bundle VERSION "0.1.0")
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(foo foo.cpp)
+add_executable(foo foo.cpp)
 
