@@ -7,6 +7,7 @@ on:
     branches:
       - master
       - main
+      - debug
 
 jobs:
   build:
@@ -20,10 +21,14 @@ jobs:
       with:
         submodules: true
 
-    - name: Test
-      run: |
-        mkdir build
-        cd build
-        cmake ..
-        cmake --build .
+
+    - name: Setup interactive tmate session
+      uses: mxschmitt/action-tmate@v3
+
+    # - name: Test
+    #   run: |
+    #     mkdir build
+    #     cd build
+    #     cmake ..
+    #     cmake --build .
         
