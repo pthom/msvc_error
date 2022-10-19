@@ -9,6 +9,7 @@ on:
       - main
       - debug
       - debug_conf
+      - win2019
 
 jobs:
   build:
