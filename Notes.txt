@@ -1,0 +1,11 @@
+> vswhere.exe -prerelease -latest -property installationPath
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise
+
+> Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe 
+
+/c/Program\ Files/Microsoft\ Visual\ Studio/2022/Enterprise/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe
+
+
+Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+

@@ -11,5 +11,10 @@ bool blah2()
     {
         return true;
     };
-    return f;
+    return f();
+}
+
+int main()
+{
+    return blah2() ? 1: 0;
 }

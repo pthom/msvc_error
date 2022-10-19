@@ -8,6 +8,7 @@ on:
       - master
       - main
       - debug
+      - debug_conf
 
 jobs:
   build:
@@ -22,13 +23,13 @@ jobs:
         submodules: true
 
 
-    - name: Setup interactive tmate session
-      uses: mxschmitt/action-tmate@v3
+    # - name: Setup interactive tmate session
+    #   uses: mxschmitt/action-tmate@v3
 
-    # - name: Test
-    #   run: |
-    #     mkdir build
-    #     cd build
-    #     cmake ..
-    #     cmake --build .
+    - name: Test
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+        cmake --build .
         
